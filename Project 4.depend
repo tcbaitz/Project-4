@@ -1,0 +1,80 @@
+# depslib dependency file v1.0
+1462057754 source:c:\users\jesus\programming files\data structures\project 4\project 4\bookhash\hashdict.cpp
+	"book.h"
+	"hashdict.h"
+
+1462057785 c:\users\jesus\programming files\data structures\project 4\project 4\bookhash\book.h
+	<iostream>
+	<cstdlib>
+	<time.h>
+
+1462057764 c:\users\jesus\programming files\data structures\project 4\project 4\bookhash\hashdict.h
+	"dictionary.h"
+	"KVpair.h"
+
+1462057961 c:\users\jesus\programming files\data structures\project 4\project 4\bookhash\dictionary.h
+
+1462057933 c:\users\jesus\programming files\data structures\project 4\project 4\bookhash\kvpair.h
+
+1462057771 source:c:\users\jesus\programming files\data structures\project 4\project 4\bookhash\testhash.cpp
+	"book.h"
+	"compare.h"
+
+1462058002 c:\users\jesus\programming files\data structures\project 4\project 4\bookhash\compare.h
+	<string.h>
+
+1462075103 source:c:\users\jesus\programming files\data structures\project 4\project 4\testtimefiles\timetester.cpp
+	"../emHashTable/emHashTable.hpp"
+	"../separateChaining/separateChaining.hpp"
+	"../bookHash/dictionary.hpp"
+	"../bookHash/hashdict.hpp"
+	"../bookHash/KVpair.hpp"
+	"../bookHash/book.hpp"
+	<iostream>
+	<cstdio>
+	<cmath>
+	<cstdlib>
+	<vector>
+	<limits>
+	<fstream>
+	<iterator>
+	<algorithm>
+	<map>
+	<unordered_map>
+	"Complexity_Timer.hpp"
+	"Complexity_Recorder.hpp"
+
+1462063793 c:\users\jesus\programming files\data structures\project 4\project 4\emhashtable\emhashtable.hpp
+	<vector>
+	<cmath>
+	<algorithm>
+
+1456092238 c:\users\jesus\programming files\data structures\project 4\project 4\testtimefiles\complexity_timer.hpp
+	<vector>
+	<ctime>
+
+1456092238 c:\users\jesus\programming files\data structures\project 4\project 4\testtimefiles\complexity_recorder.hpp
+	<vector>
+	<iostream>
+	<iomanip>
+
+1462071179 c:\users\jesus\programming files\data structures\project 4\project 4\bookhash\dictionary.hpp
+
+1462071209 c:\users\jesus\programming files\data structures\project 4\project 4\bookhash\hashdict.hpp
+	"dictionary.hpp"
+	"KVpair.hpp"
+	"book.hpp"
+
+1462071179 c:\users\jesus\programming files\data structures\project 4\project 4\bookhash\kvpair.hpp
+
+1462072521 c:\users\jesus\programming files\data structures\project 4\project 4\separatechaining\separatechaining.hpp
+	<iostream>
+	<cstdlib>
+	<string>
+	<cstdio>
+
+1462075147 c:\users\jesus\programming files\data structures\project 4\project 4\bookhash\book.hpp
+	<iostream>
+	<cstdlib>
+	<time.h>
+
