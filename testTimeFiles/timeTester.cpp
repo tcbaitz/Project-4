@@ -11,6 +11,9 @@
 //include separate chaining with linked list
 #include "../separateChaining/separateChaining.hpp"
 
+//include linear hashing
+#include "../linearHash/LinearHash.cpp"
+
 //include the book's implementation of hash
 #include "../bookHash/dictionary.hpp"
 #include "../bookHash/hashdict.hpp"

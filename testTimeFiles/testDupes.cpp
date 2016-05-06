@@ -45,17 +45,17 @@ timer timer1;
 typedef int U;
 
 //total number of algorithims being tested
-const int number_of_algorithms = 2;
+const int number_of_algorithms = 4;
 //the number times the number of elements will be multiplied
 const int number_of_trials = 11;
 
 const char* headings[number_of_algorithms] =
 {"| Emily's Hash   ",
- //"| STL UnOrd Map  ",
+ "| STL UnOrd Map  ",
  //"| S Chain LL Hash",
  //"| Book's Dict Has",
- "| Emily's Remove "};
- //"| UnOrd Map Remov",
+ "| Emily's Remove ",
+ "| UnOrd Map Remov"};
  //"| LL Hash Remove ",
  //"| Dict Hash Remov"};
 
@@ -133,9 +133,10 @@ int main()
                     case 0: emHash.insert(testVector[k]);
                             //emHash.insert(k);
                         break;
-                    /*case 1: //stlMap.insert(make_pair(testVector[k], keyVector[k]));
+                    case 1: stlMap.insert(make_pair(keyVector[k], testVector[k]));
                             //stlMap.insert(k, k);
                         break;
+                    /*
                     case 2: //sepChain.insert(testVector[k]);
                             //sepChain.insert(k);
                         break;
@@ -143,12 +144,12 @@ int main()
                             //bookHash.insert(k, k);
                         break;
                     */
-                    case 1: emHash.remove(testVector[k]);
+                    case 2: emHash.remove(testVector[k]);
                             //emHash.remove(k);
-                    /*    break;
-                    case 5: //stlMap.erase(testVector[k]);
+                       break;
+                    case 3: stlMap.erase(testVector[k]);
                             //stlMap.erase(k);
-                        break;
+                    /*    break;
                     case 6: //sepChain.remove(testVector[k]);
                             //sepChain.remove(k);
                         break;
